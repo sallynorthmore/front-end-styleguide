@@ -170,13 +170,13 @@ Keep the naming of descendants consistent across components:
     <div class="ComponentName-content">
       <div class="ComponentName-summary">
         <div class="ComponentName-audioPlayer" data-region="audio-player"></div>
-          <h1 class="ComponentName-title">{{title}}</h1>
+          <h1 class="ComponentName-title">Title text</h1>
           <img alt="{{alt}}" class="ComponentName-media" src="{{src}}">
         </div>
         <div class="ComponentName-details">
           <p class="ComponentName-body">{{body}}</p>
           <div class="ComponentName-button">
-            <button class="Button Button--primary">{{link}}</button>
+            <button class="Button Button--primary">Button link</button>
           </div>
         </div>
       </div>
@@ -184,10 +184,6 @@ Keep the naming of descendants consistent across components:
         <li class="ComponentName-item"><a href="ComponentName-itemInner">{{link}}</a></li>
         <li class="ComponentName-item"><a href="ComponentName-itemInner">{{link}}</a></li>
       </ul>
-    </div>
-    <div class="ComponentName-pulse">
-      <span class="ComponentName-pulseItem"></span>
-      <span class="ComponentName-pulseItem"></span>
     </div>
   </div>
 </section>
